@@ -1,32 +1,33 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: cursive;
     text-align: center;
-    background: linear-gradient(to right,#123456,#abcdef);
-    letter-spacing: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    background: linear-gradient(to right,#00ff00,#ff0000);
 }
 
-h1 {
-    margin-top: 7em;
+.wrap {
+    margin-top: 11em;
 }
 
-h4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 1em;
-    letter-spacing: normal;
-    font-size: 1.5em;
+.curr {
+    margin: 1em auto;
+    text-transform: none;
+    letter-spacing: 0.25em;
+    border: 5px solid black;
+    border-radius: 10em;
+    padding: 0.5em;
+    background-color: whitesmoke;
+    width: 35em;
 }
 
-.randomDiv {
-    margin: 2em;
-}
-
-.randomDiv > button {
-    width: 10em;
+button {
+    font-family: cursive;
+    margin-top: 5em;
+    border: 5px solid;
+    border-radius: 10em;
+    font-weight: 900;
+    width: 8em;
     height: 3em;
-    border: 2px solid white;
-    background: black;
-    color: white;
-    cursor: pointer;
 }
+
