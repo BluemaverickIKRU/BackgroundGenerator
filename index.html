@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>BackGround Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Background Generator</title>
 </head>
-<body id="gradient">
-    <h1>BackGround Generator</h1>
-    <div class="randomDiv"><button class="random">Random</button></div>
-    <input class="color1" type="color" name='color1 ' value="#123456">
-    <input class="color2" type="color" name="color2" value="#abcdef">
-    <h3>Current css background</h3>
-    <h4>linear-gradient(to right,rgb(18,52,36),rgb(171,205,239));</h4>
-    <script src="index.js"></script>
+<body class="back">
+    <div class="wrap">
+        <h1>Background Generator</h1>
+        <input type="color" name="color1" class="inp1" value="#00FF00">
+        <input type="color" name="color2" class="inp2" value="#ff0000">
+        <h2>Current CSS Style</h2>
+        <h3 class="curr">linear-gradient(to right,#00ff00,#ff0000);</h3>
+        <button class="random">RANDOM</button>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
